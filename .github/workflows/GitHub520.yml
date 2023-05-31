@@ -41,7 +41,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{secrets.GIT_TOKEN}}
-        repository: https://github.com/tony252/GitHub520.git
+        repository: tony252/GitHub520
         branch: ${{ github.ref }}
         directory: .
 
