@@ -4,7 +4,6 @@
 name: GitHub520
 
 on:
-  push:
   schedule:
     - cron: '30 * * * *'
   workflow_dispatch:
