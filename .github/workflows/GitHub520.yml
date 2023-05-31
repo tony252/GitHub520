@@ -40,7 +40,7 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{secrets.GIT_TOKEN}
+        github_token: ${{secrets.GIT_TOKEN}}
         repository: https://github.com/tony252/GitHub520.git
         branch: ${{ github.ref }}
         directory: .
